@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e55f59d-5e9b-48cb-90ec-2fc97475a801" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2Xa0DsiClRTiMv0yTk8EsIYn2eI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium/krzy-test-selenium/src/test/java",
+    "last_opened_file_path": "C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\krzysztof.fratczak\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="ff83e7fc-b5ad-4614-9d3c-8d5196c53d2c" />
+        <option name="reportName" value="krzy-test-selenium/qodana/2023-11-19" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\krzysztof.fratczak\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="ff83e7fc-b5ad-4614-9d3c-8d5196c53d2c" reportId="krzy-test-selenium/qodana/2023-11-19" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krzysztof.fratczak\IdeaProjects\krzy-test-selenium\src\test\java\com" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.krzytest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WikipediaFirstTest2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.Main" />
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikipediaFirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krzytest" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaFirstTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikipediaFirstTest2.simpleRedirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krzytest" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaFirstTest2" />
+      <option name="METHOD_NAME" value="simpleRedirect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikipediaTestXPath4.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krzytest" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaTestXPath4" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wikiprez.testWikipedia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krzytest" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.wikiprez" />
+      <option name="METHOD_NAME" value="testWikipedia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WikipediaFirstTest2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WikipediaTestXPath4.Test2" />
+        <item itemvalue="JUnit.wikiprez.testWikipedia" />
+        <item itemvalue="JUnit.WikipediaFirstTest2.simpleRedirect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e55f59d-5e9b-48cb-90ec-2fc97475a801" name="Changes" comment="" />
+      <created>1698851766202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698851766202</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/krzy-test-selenium/src/main/java/com/krzytest/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
