@@ -49,7 +49,7 @@ public class WaitsTest {
     }
 
     @Test
-    public void t1() throws InterruptedException {
+    public void testThreadSleepMethod() throws InterruptedException {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));
@@ -71,7 +71,7 @@ public class WaitsTest {
     }
 
     @Test
-    public void t2() throws InterruptedException {
+    public void testVisibilityAfterButtonClick() throws InterruptedException {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));
@@ -112,7 +112,7 @@ public class WaitsTest {
     }
 
     @Test
-    public void t3() {
+    public void testCustomWaitForVisibility() {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));
@@ -138,7 +138,7 @@ public class WaitsTest {
     }
 
     @Test
-    public void t4() {
+    public void testVisibilityWithFluentWait() {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));

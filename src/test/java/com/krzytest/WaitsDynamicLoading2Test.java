@@ -18,15 +18,15 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 public class WaitsDynamicLoading2Test {
-   /*
-Praca domowa zrób 4 waity dla przykładu z
-https://the-internet.herokuapp.com/dynamic_loading/2
+    /*
+ Praca domowa zrób 4 waity dla przykładu z
+ https://the-internet.herokuapp.com/dynamic_loading/2
 
-isDisplayed()
+ isDisplayed()
 
-https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automation
- */
-   private final String URL = "https://the-internet.herokuapp.com/dynamic_loading/2";
+ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automation
+  */
+    private final String URL = "https://the-internet.herokuapp.com/dynamic_loading/2";
 
     private WebDriver driver;
 
@@ -45,9 +45,10 @@ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automa
 //        driver.close();
         driver.quit();
     }
-//Thread.sleep() Method in Java
+
+    //Thread.sleep() Method in Java
     @Test
-    public void t1() throws InterruptedException {
+    public void testThreadSleepMethod() throws InterruptedException {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));
@@ -55,7 +56,7 @@ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automa
         button.click();
 
         System.out.println("Przed");
-        Thread.sleep(Duration.ofSeconds(15)); // java-1
+        Thread.sleep(Duration.ofSeconds(5)); // java-1
         System.out.println("Po");
 
         var element = driver.findElement(By.id("finish"));
@@ -68,13 +69,13 @@ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automa
     }
 
     @Test
-    public void t2() throws InterruptedException {
+    public void testVisibilityAfterButtonClick() throws InterruptedException {
         driver.get(URL);
 
         WebElement button = new WebDriverWait(driver, Duration.ofSeconds(10), Duration.ofMillis(500))
-                  //.withMessage("Start")
+                //.withMessage("Start")
                 .until(ExpectedConditions.elementToBeClickable(By.tagName("button")));
-//lub //.xpath("//*[@id='start']/button")));
+        //lub //.xpath("//*[@id='start']/button")));
         button.click();
 
         WebElement button2 = new WebDriverWait(driver, Duration.ofSeconds(15), Duration.ofMillis(500))
@@ -87,7 +88,7 @@ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automa
     }
 
     @Test
-    public void t3() {
+    public void testCustomWaitForVisibility() {
         driver.get(URL);
 
         var buttonDiv = driver.findElement(By.id("start"));
@@ -113,17 +114,16 @@ https://hackernoon.com/recommended-websites-to-practice-selenium-and-test-automa
     }
 
     @Test
-    public void t4() throws InterruptedException {
+    public void testVisibilityWithFluentWait() throws InterruptedException {
         driver.get(URL);
 
         WebElement button = new WebDriverWait(driver, Duration.ofSeconds(10), Duration.ofMillis(500))
                 //.withMessage("Start")
                 .until(ExpectedConditions.elementToBeClickable(By.tagName("button")));
 
-
 //lub  //.xpath("//*[@id='start']/button")));
         button.click();
-Thread.sleep(700);
+        Thread.sleep(700);
 
 
 //        WebElement NewButton = new WebDriverWait(driver, Duration.ofSeconds(10), Duration.ofMillis(500))
@@ -138,8 +138,9 @@ Thread.sleep(700);
 
         System.out.println(NewButton.getText());
 
-Assertions.assertThat(NewButton.getText()).isEqualTo("Hello World!");
+        Assertions.assertThat(NewButton.getText()).isEqualTo("Hello World!");
         driver.quit();
     }
+
 
 }

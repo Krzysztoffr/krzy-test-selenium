@@ -1,7 +1,6 @@
 package com.krzytest;
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -11,14 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 
-import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 
-public class WikipediaTestXPath4 {
+public class WikipediaTestUsingXPath {
 
     private static final String URL = "https://www.wikipedia.org/";
 
@@ -41,11 +38,9 @@ public class WikipediaTestXPath4 {
     }
 
     @Test
-
-    public void Test() {
+    public void testElementsWikiSizeAndContent() {
         driver.get(URL);
-        var elementyWiki = driver.findElements(By.xpath("//*[@id=\"www-wikipedia-org\"]/div[7]/div[3]/div[*]/a/div[2]"));
-
+        List<WebElement> elementyWiki = driver.findElements(By.xpath("//*[@id=\"www-wikipedia-org\"]/main/nav[1]/div[*]"));
         System.out.println(elementyWiki.size());
 
         for (WebElement element : elementyWiki) {
@@ -55,7 +50,7 @@ public class WikipediaTestXPath4 {
 
     @Test
 
-    public void Test2() throws InterruptedException {
+    public void testWikiListElementsEquality_With_JUnit_sendKeys() throws InterruptedException {
         driver.get(URL);
 
         // Wynik oczekiwany (to, co oczekujesz, że znajdziesz na stronie)

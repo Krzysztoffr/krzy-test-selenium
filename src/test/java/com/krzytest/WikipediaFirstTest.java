@@ -180,9 +180,10 @@ class WikipediaFirstTest {
         System.out.print("\n");
         List<String> expected = List.of(
                 "Commons: Zdjęcia do swobodnego wykorzystywania"
-                , "Wikipodróże: Przewodnik Turystyczny"
-                , "Wikisłownik: Wolny słownik", "Wikibooks: Otwarte podręczniki"
-                , "Wikinews: Wolne źródło informacji"
+                , "Wikipodróże: Wolny przewodnik turystyczny"
+                , "Wikisłownik: Wolny słownik",
+                "Wikibooks: Otwarte podręczniki"
+                , "Wikinews: Free news source"
                 , "Wikidane: Wolna baza wiedzy"
                 , "Wikiwersytet: Wolne materiały edukacyjne"
                 , "Wikicytaty: Kolekcja cytatów"
