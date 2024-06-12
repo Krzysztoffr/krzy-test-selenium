@@ -102,21 +102,5 @@ public class WikipediaCssTest {
         }
     }
 
-    private String getOtherProjectInfo(WebElement webElement) {
-        try {
-            // element <span> klasa 'other-project-title' (tytuł)
-            WebElement titleElement = webElement.findElement(By.className("other-project-title"));
-            // element <span> klasa 'other-project-tagline' (tagline)
-            WebElement taglineElement = webElement.findElement(By.className("other-project-tagline"));
 
-
-            String title = titleElement.getText();
-            String tagline = taglineElement.getText();
-
-            return title + ": " + tagline;
-        } catch (NoSuchElementException e) {
-            System.out.println("Nie znaleziono elementu: " + e.getMessage());
-            return "Element not found";
-        }
-    }
 }

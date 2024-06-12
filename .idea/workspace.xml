@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e55f59d-5e9b-48cb-90ec-2fc97475a801" name="Changes" comment="" />
+    <list default="true" id="9e55f59d-5e9b-48cb-90ec-2fc97475a801" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/WaitsDynamicLoading2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/WaitsDynamicLoading2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/WaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/WaitsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/WikipediaCssTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/WikipediaCssTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/WikipediaFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/WikipediaFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/WikipediaTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/wikipediatestWithUsageofpageobjectmodel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/model/WaitsDynamicLoading2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzytest/model/WikipediaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzytest/model/WikipediaHomePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +23,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
@@ -24,22 +43,29 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2Xa0DsiClRTiMv0yTk8EsIYn2eI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium/krzy-test-selenium/src/test/java",
-    "last_opened_file_path": "C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium/krzy-test-selenium/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium/src/test/java/com/krzytest/WaitsDynamicLoading2TestInner.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/krzysztof.fratczak/IdeaProjects/krzy-test-selenium/src/test/java/com/krzytest/WaitsDynamicLoading2TestInner.java&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
@@ -61,17 +87,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\krzysztof.fratczak\IdeaProjects\krzy-test-selenium\src\test\java\com" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.krzytest" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.krzytest" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.krzytest.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WikipediaFirstTest2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krzytest.Main" />
+  <component name="RunManager" selected="JUnit.WikipediaTest3.pageObjectModelTestOne">
+    <configuration name="TestGetOtherProjectInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.model.TestGetOtherProjectInfo" />
       <module name="krzy-test-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krzytest.*" />
+          <option name="PATTERN" value="com.krzytest.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +114,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikipediaFirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="getOtherProjectInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.model.getOtherProjectInfo" />
+      <module name="krzy-test-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krzytest.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikipediaFirstTest.WikipediaOtherProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="krzy-test-selenium" />
       <extension name="coverage">
         <pattern>
@@ -88,29 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krzytest" />
-      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaFirstTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WikipediaFirstTest2.simpleRedirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="krzy-test-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krzytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krzytest" />
-      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaFirstTest2" />
-      <option name="METHOD_NAME" value="simpleRedirect" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaFirstTest" />
+      <option name="METHOD_NAME" value="WikipediaOtherProjectTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikipediaTestXPath4.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WikipediaTest3.pageObjectModelTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="krzy-test-selenium" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +152,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krzytest" />
-      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaTestXPath4" />
-      <option name="METHOD_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaTest3" />
+      <option name="METHOD_NAME" value="pageObjectModelTestOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wikiprez.testWikipedia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WikipediaTest3.xpath1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="krzy-test-selenium" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krzytest" />
-      <option name="MAIN_CLASS_NAME" value="com.krzytest.wikiprez" />
-      <option name="METHOD_NAME" value="testWikipedia" />
+      <option name="MAIN_CLASS_NAME" value="com.krzytest.WikipediaTest3" />
+      <option name="METHOD_NAME" value="xpath1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WikipediaFirstTest2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.WikipediaTestXPath4.Test2" />
-        <item itemvalue="JUnit.wikiprez.testWikipedia" />
-        <item itemvalue="JUnit.WikipediaFirstTest2.simpleRedirect" />
+        <item itemvalue="JUnit.WikipediaTest3.pageObjectModelTestOne" />
+        <item itemvalue="JUnit.WikipediaTest3.xpath1" />
+        <item itemvalue="JUnit.WikipediaFirstTest.WikipediaOtherProjectTest" />
+        <item itemvalue="Application.TestGetOtherProjectInfo" />
+        <item itemvalue="Application.getOtherProjectInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +194,31 @@
       <option name="presentableId" value="Default" />
       <updated>1698851766202</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1718108903043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718108903044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

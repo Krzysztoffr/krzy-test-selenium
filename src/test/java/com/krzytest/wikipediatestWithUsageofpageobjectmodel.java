@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
-public class WikipediaTest3 {
+public class wikipediatestWithUsageofpageobjectmodel {
 
     // //div[@class="other-project"]//span[@class="other-project-tagline jsl10n"]
 
@@ -34,7 +34,7 @@ public class WikipediaTest3 {
     }
 
     @Test
-    public void xpath1() {
+    public void xpathTestCheckSize_and_PrintElements() {
         driver.get(URL);
 
         var elements = driver.findElements(By.xpath("//div[@class=\"other-project\"]//span[@class=\"other-project-tagline jsl10n\"]"));
@@ -48,22 +48,35 @@ public class WikipediaTest3 {
         }
     }
 
-    @Test
-    public void pageObjectModelTestOne() {
-        driver.get(URL);
-        WikipediaHomePage wikipediaHomePage = PageFactory.initElements(driver, WikipediaHomePage.class);
+ /**
+ * This test method demonstrates the usage of Page Object Model (POM) design pattern.
+ * It navigates to the Wikipedia homepage and initializes the WikipediaHomePage object using PageFactory.
+ * Then, it prints the text of the English language box and the title of the page.
+ * It also retrieves a list of 'other projects' elements and prints their size and texts.
+ */
+@Test
+public void testPageObjectModelOne() {
+    // Navigate to the Wikipedia homepage
+    driver.get(URL);
 
-        System.out.println(wikipediaHomePage.getEnglishBox().getText());
-        System.out.println(wikipediaHomePage.getTitle().getText());
+    // Initialize the WikipediaHomePage object using PageFactory
+    WikipediaHomePage wikipediaHomePage = PageFactory.initElements(driver, WikipediaHomePage.class);
 
-        var elements = wikipediaHomePage.getOtherProjects();
+    // Print the text of the English language box
+    System.out.println(wikipediaHomePage.getEnglishBox().getText());
 
-        System.out.println(elements.size());
+    // Print the title of the page
+    System.out.println(wikipediaHomePage.getTitle().getText());
 
-        System.out.println(wikipediaHomePage.getOtherProjectsTexts());
+    // Retrieve a list of 'other projects' elements
+    var elements = wikipediaHomePage.getOtherProjects();
 
+    // Print the size of the 'other projects' elements list
+    System.out.println(elements.size());
 
-    }
+    // Print the texts of the 'other projects' elements
+    System.out.println(wikipediaHomePage.getOtherProjectsTexts());
+}
 
     @AfterEach
     public void ae() {
